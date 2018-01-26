@@ -16,7 +16,7 @@ export function loadProducts() {
         })
     }
 }
-//test1
+
 export function addNewReview(newReview, productId) {
     return { type: ADD_NEW_REVIEW, newReview, productId };
 }
@@ -55,4 +55,3 @@ export function addNewReviewAsync(newReview, productId) {
         })
     }
 }
-
