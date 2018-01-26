@@ -43,6 +43,7 @@ export function loadProductReviewsAsync(productId) {
 }
 //  testing
 export function addNewReviewAsync(newReview, productId) {
+	console.log('hi');
     return function (dispatch) {
         $.ajax(`http://localhost:8080/api/products/${productId}/reviews`, {
             method: 'POST',
