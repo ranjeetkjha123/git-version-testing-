@@ -27,6 +27,7 @@ export function loadProductReviews(reviews, productId) {
 
 
 export function loadProductReviewsAsync(productId) {
+	console.log('hibranch2 commit');
     return function (dispatch) {
         $.ajax(`http://localhost:8080/api/products/${productId}/reviews`, {
             method: 'GET',
