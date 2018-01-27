@@ -41,7 +41,9 @@ export function loadProductReviewsAsync(productId) {
         })
     }
 }
+
 //  testinkkkkkkkdddg
+
 export function addNewReviewAsync(newReview, productId) {
 	console.log('hi');
     return function (dispatch) {
