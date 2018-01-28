@@ -3,8 +3,7 @@
 import { BUY } from '../constants';
 
 export function buy(product) 
-hi this my merge code
-edited for master
+edited for masterjjjjjjjjj
 {
     return { type: BUY, product }
 }
